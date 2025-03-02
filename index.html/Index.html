@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Web Complet</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenu sur mon site Projet Web Complet</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">À propos</a></li>
+                <li><a href="#section2">Galerie</a></li>
+                <li><a href="#section3">Formulaire de contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>À propos</h2>
+            <p>Sur cette page, on va apprendrer à créer une site web contenant des images, ainsi qu'un formulaire de contact.</p>
+        </section>
+
+        <section id="section2">
+            <h2>Galerie</h2>
+            <p>Dans cette galerie, on va voir des images de biscuits succulants.</p>
+            <div class="gallery">
+                <img src="biscuit au chocolat.jpg" alt="Image 1" width="150" height="150">
+                <img src="biscuit à l'avoine.jpg" alt="Image 2" width="150" height="150">
+                <img src="biscuit au gingembre.jpg" alt="Image 3" width="150" height="150">
+                <img src="biscuits au raisin sec.jpg" alt="Image 4" width="150" height="150">
+                <img src="biscuit au carottes.jpg" alt="Image 5" width="150" height="150">
+            </div>
+        </section>
+
+        <section id="section3">
+            <h2>Formulaire de contact</h2>
+            <p>Pour plus d'information sur notre page, veuillez nous laisser vos informations.</p>
+            <form action="">
+                <label for="nom">Nom :</label><input type="text" name="nom" maxlength="25" placeholder="Saisir votre nom">
+                <br>
+                <label for="email">Email :</label><input type="email" name="email" placeholder="Saisir votre email"> 
+                <br>
+                <label for="infolettre">S'inscrire à infolettre :</label>
+                <input type="checkbox" checked name="infolettre">
+                <br>
+                <label for="sexe">Sexe :</label>
+                <input type="radio" name="sexe" value="Masculin">Masculin
+                <input type="radio" name="sexe" value="Feminin">Feminin
+                <br>
+                <button type="submit">Soumettre</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>Tous droits réservés ©Eli 2023</footer>
+</body>
+</html>
